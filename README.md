@@ -5,7 +5,6 @@ y articulos para el estudio.</h1>
  
   
    <ul>  
-<li>Acceso público, protegido o privado</li> 
 <li>Sobrecarga de métodos</li> 
 <li>Encapsulación</li> 
 <li>La palabra this</li> 
