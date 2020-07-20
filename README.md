@@ -1,11 +1,15 @@
 # Programación Orientada a Objetos 
 
-<h1>  El sisguiente program   es realizado en consola C# , es un simulador   de compras   de articulos para la cocina 
-y articulos para el estudio.</h1>
+<h1>  El sisguiente programa   es realizado en consola de  C# , es un simulador   de compras   de articulos para la cocina 
+y articulos para el estudio, en donde consiste en ingresar su nombre  y apellido , para luego seleccionar hacia que categoria quiere dirigirse,
+  una vez realizado mostrara  una lista  de los productos, ante eso puede seleccionar el que desee  poniendo la posicion en la que se encuentre dicho artículo
+  mostrandole así todo la información del producto .</h1>
 
-
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_PNR3aXOrt4oOl0Nl662cfo2wiqaFYDaeMA&usqp=CAU)
+<center>
+![alt text](https://lh3.googleusercontent.com/proxy/ZTO83rzQ9JKIgdvkEsfJihRNMwgO4gfehNu1LfzW2pkQBPxYmBqqp5YgavxO4dGo1tVrNaNDN00vCLozLiLoOauMIQGM3eqc_nFhEL4iaQkLqWcQMg)
+  ![alt text](https://image.freepik.com/vector-gratis/electrodomesticos-utensilios-cocina-conjunto-iconos_1284-10067.jpg)
   
+  </center>
    <ul>  
 <li>Sobrecarga de métodos</li> 
 <li>Encapsulación</li> 
