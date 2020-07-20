@@ -1,9 +1,9 @@
 # Programación Orientada a Objetos 
 
-<h1>  El siguiente programa   es realizado en consola de  C# , es un simulador   de compras   de articulos para la cocina 
-y articulos para el estudio, en donde consiste en ingresar su nombre  y apellido , para luego seleccionar hacia que categoria quiere dirigirse,
-  una vez realizado mostrara  una lista  de los productos, ante eso puede seleccionar el que desee  poniendo la posicion en la que se encuentre dicho artículo
-  mostrandole así todo la información del producto .</h1>
+<h1>El siguiente programa   es realizado en consola de  C# , es un simulador   de compras   de artículos para la cocina 
+  y artículos para el estudio, en donde consiste en ingresar su nombre  y apellido , para luego seleccionar hacia que 
+  categoría quiere dirigirse,una vez realizado mostrara  una lista  de los productos, ante eso puede seleccionar el que 
+  desee  poniendo la posición en la que se encuentre dicho artículo para luego mostrarle así todo la información del producto .</h1>
 
 
 | Artículos De Estudio | Artículos De Cocina |
