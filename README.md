@@ -2,7 +2,8 @@
 
 <h1>  El sisguiente program   es realizado en consola C# , es un simulador   de compras   de articulos para la cocina 
 y articulos para el estudio.</h1>
- 
+
+<img src="https://https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_PNR3aXOrt4oOl0Nl662cfo2wiqaFYDaeMA&usqp=CAU"> 
   
    <ul>  
 <li>Sobrecarga de métodos</li> 
