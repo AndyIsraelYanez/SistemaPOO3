@@ -6,11 +6,11 @@ y articulos para el estudio, en donde consiste en ingresar su nombre  y apellido
   mostrandole así todo la información del producto .</h1>
 
 
-| Artículos De Cocina | Artículos De Estudio|
+| Artículos De Estudio | Artículos De Cocina |
 | ------------ | ------------- |
 | <img src="https://lh3.googleusercontent.com/proxy/ZTO83rzQ9JKIgdvkEsfJihRNMwgO4gfehNu1LfzW2pkQBPxYmBqqp5YgavxO4dGo1tVrNaNDN00vCLozLiLoOauMIQGM3eqc_nFhEL4iaQkLqWcQMg" width="250"> | <img src="https://image.freepik.com/vector-gratis/electrodomesticos-utensilios-cocina-conjunto-iconos_1284-10067.jpg" width="250"> |
 
- #Lo que utilizamos 
+ # Lo que utilizamos 
    <ul>  
 <li>Sobrecarga de métodos</li> 
 <li>Encapsulación</li> 
@@ -37,6 +37,7 @@ y articulos para el estudio, en donde consiste en ingresar su nombre  y apellido
 <li>Una vez dentro de la carpeta en la parte derecha damos clic en programa.cs y lo ejecutamos.</li> 
 <li>De la msima manera puede realizar una clonación  del proyecto.</li> 
   </ol> 
+ 
   
   # Contacto Correo electrónico
   
