@@ -7,7 +7,12 @@ y articulos para el estudio, en donde consiste en ingresar su nombre  y apellido
 
 ![alt text](https://lh3.googleusercontent.com/proxy/ZTO83rzQ9JKIgdvkEsfJihRNMwgO4gfehNu1LfzW2pkQBPxYmBqqp5YgavxO4dGo1tVrNaNDN00vCLozLiLoOauMIQGM3eqc_nFhEL4iaQkLqWcQMg)
 ![alt text](https://image.freepik.com/vector-gratis/electrodomesticos-utensilios-cocina-conjunto-iconos_1284-10067.jpg)
-  
+
+.. image:: image.freepik.com/vector-gratis/electrodomesticos-utensilios-cocina-conjunto-iconos_1284-10067.jpg
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+ #Lo que utilizamos 
    <ul>  
 <li>Sobrecarga de métodos</li> 
 <li>Encapsulación</li> 
