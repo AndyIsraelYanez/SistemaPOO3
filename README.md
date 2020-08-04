@@ -1,7 +1,9 @@
 # Programación Orientada a Objetos 
 
-<h1>El siguiente programa   es realizado en consola de  C# , Es un catálogo     de artículos para la cocina 
-  y artículos para el estudio, en donde consiste en ingresar su nombre  y apellido ,  una vez realizado eso nos despleglara  una lista de informacion de los productos tanto de electrodomésticos y artículos para el hogar , como finalidad mostrará aquellas personas   que ya asistieron a esa tienda  y realizaron una compra .</h1>
+<h1>El siguiente programa   es realizado en consola de  C# , es un simulador   de compras   de artículos para la cocina 
+  y artículos para el estudio, en donde consiste en ingresar su nombre  y apellido , para luego seleccionar hacia que 
+  categoría quiere dirigirse,una vez realizado mostrara  una lista  de los productos, ante eso puede seleccionar el que 
+  desee  poniendo la posición en la que se encuentre dicho artículo para luego mostrarle así todo la información del producto .</h1>
 
 
 | Artículos De Estudio | Artículos De Cocina |

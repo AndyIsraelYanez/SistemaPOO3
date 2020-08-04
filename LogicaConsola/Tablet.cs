@@ -36,7 +36,7 @@ namespace LogicaConsola
         }
         public virtual string Resistencia(string resistent)
         {
-            return $" su tablet : {resistent}  ";
+            return $" su tablet : {resistent} . ";
         }
     }
 }
