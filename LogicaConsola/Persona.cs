@@ -1,5 +1,5 @@
 ﻿
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public class Persona:GeneradorId
     {

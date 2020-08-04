@@ -3,7 +3,7 @@ using System;
 using System.Buffers.Text;
 using System.Runtime.CompilerServices;
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
    public  class Licuadora : ArticuloDeCocina
     {
@@ -35,18 +35,9 @@ namespace SolucionAppLogica
         
         public virtual string Describir()
         {
-            Random consumo = new Random();
-
-            int numeroGasto = consumo.Next(10, 15);
-
-            int numCantidadDeBatida = consumo.Next(1, 3);
-
-            ConsumoElectrico = numeroGasto;
-
-            CantidadDeBatida = numCantidadDeBatida;
 
             return $" la licuadora  de Modelo:  {this.Modelo} y marca: {this.Marca} " +
-                $"puede ingresar una cantidad  de agua de: {this.CantidadDeBatida} litros, su consumo de energia es de  {this.ConsumoElectrico} kWh y tiene un costo de: {this.Costo} $ ";
+                $"son muy Rapidas y resistentes ante cualquier caida  $ ";
         }
     }
 }

@@ -2,7 +2,7 @@
 
 using System;
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public abstract class ArticuloDeEstudio : Articulo
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public class Laptop:ArticuloDeEstudio
 

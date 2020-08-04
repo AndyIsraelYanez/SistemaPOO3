@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public  class Cliente:Persona
     {

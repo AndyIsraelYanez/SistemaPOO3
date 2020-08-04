@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public  class GeneradorId
     {

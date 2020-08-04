@@ -1,7 +1,7 @@
 ﻿
 using System.Runtime.CompilerServices;
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public class Tablet:ArticuloDeEstudio
     {

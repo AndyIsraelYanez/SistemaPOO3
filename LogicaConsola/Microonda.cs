@@ -2,7 +2,7 @@
 using System;
 using System.Globalization;
 
-namespace SolucionAppLogica
+namespace LogicaConsola
 {
     public class Microonda:ArticuloDeCocina
     {
@@ -37,17 +37,8 @@ namespace SolucionAppLogica
         }
         public string Describir()
         {
-            Random consumo = new Random();
 
-            int numGastoEnergia = consumo.Next(5, 10);
-
-            ConsumoElectrico = numGastoEnergia;
-
-            var luz = "LED";
-
-            TipoDeIluminacion = luz;
-
-            return $" El microondas de marca  {this.Marca}   consume la electricidad  de {this.ConsumoElectrico} kWh , tiene un costo de {this.Costo} $ ";
+            return $" El microondas de marca  {this.Marca}   es muy recomendado $ ";
         }
 
     }
