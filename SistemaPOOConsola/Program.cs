@@ -46,8 +46,7 @@ namespace SistemaPOOConsola
             Batidora batidora4 = new Batidora("5KPM5EER", "KitchenAid ", "Roja", 98);
 
            
-            Console.WriteLine($"-----------------------------------------------------");
-            Console.WriteLine($"\t Hola Bienvenidos  a una simulacion de compra de productos. ");
+          
             Console.WriteLine($"-----------------------------------------------------");
             Console.WriteLine($"\t Encuentra  Artículos de Cocina  tanto como Artículos de Estudio");
             Console.WriteLine($"-----------------------------------------------------");
