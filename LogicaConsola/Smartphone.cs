@@ -8,10 +8,6 @@ namespace LogicaConsola
     {
         public string Almacenamiento { get; set; }
         public string MemoriaRam { get; set; }
-        public Smartphone() : base()
-        {
-
-        }
         public Smartphone(string modelo, string color, string marca, string almacenamiento,string memoriaRam, float costo)
         {
             Modelo = modelo;

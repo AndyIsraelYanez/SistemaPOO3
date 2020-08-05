@@ -10,8 +10,6 @@ namespace LogicaConsola
         public float CantidadDeBatida { get; set; }
         public string TipoDeLicuado { get; set; }
         public float ConsumoElectrico { get; set; }
-        public Licuadora():base()
-        {}
         public Licuadora(string modelo,string marca, string color, float costo)
         {
             Modelo = modelo;
@@ -19,19 +17,20 @@ namespace LogicaConsola
             Color = color;
             Costo = costo;
         }
+
+        public string Licuar(string licuado)
+        {
+            return $" la Licuadora esta licuando {licuado}";
+        }
+
         public new string Encender()
         {
             return $"  {this.Marca} {base.Encender()} ";
         }
         public new string Apagar()
         {
-            return $" {base.Apagar()} {base.Apagar()}";
-        }
-        public string Licuar(string licuado)
-        {
-            return $" la Licuadora esta licuando {licuado}";
-        }
-
+            return $" {this.Modelo} {base.Apagar()}";
+        }      
         
         public virtual string Detallar()
         {

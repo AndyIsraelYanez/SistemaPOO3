@@ -4,9 +4,7 @@ namespace LogicaConsola
 {
    public  class Batidora:ArticuloDeCocina
     {
-        public Batidora():base()
-        {}
-
+       
         public Batidora(string modelo, string marca,string color, float costo)
         {
             Modelo = modelo;

@@ -7,10 +7,6 @@ namespace LogicaConsola
     {
         public string Almacenamiento { get; set; }
         public string MemoriaRam { get; set; }
-        public Tablet():base()
-        {
-
-        }
         public Tablet(string modelo, string color, string marca,string almacenamiento,string memoria,float costo )
         {
             Modelo = modelo;
