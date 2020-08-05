@@ -1,10 +1,9 @@
 ﻿
 namespace LogicaConsola
 {
-    public abstract class Articulo:GeneradorId
+    public abstract class Articulo
     {
-        protected Articulo():base()
-        {}
+        
         public virtual string Encender()
         {
             return $"se encuentra encendido";
