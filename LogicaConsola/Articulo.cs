@@ -12,7 +12,7 @@ namespace LogicaConsola
         }
         public virtual string Apagar()
         {
-            return $"se encuentra apagado";
+            return $"Apagado";
 
         }
         public virtual string ReproducirMusica()

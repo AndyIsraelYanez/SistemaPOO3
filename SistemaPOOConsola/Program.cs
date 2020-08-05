@@ -45,54 +45,7 @@ namespace SistemaPOOConsola
             Batidora batidora3 = new Batidora("KM 398 CB", "Bomann  ", "Negra", 130);
             Batidora batidora4 = new Batidora("5KPM5EER", "KitchenAid ", "Roja", 98);
 
-            Cliente recomendacionPersona1 = new Cliente
-            {
-                Nombre = "Andy de la Cruz",
-                TabletComprada = tablet1,
-                MicroondaComprada = microonda2,
-                BatidoraComprada = batidora2
-            };
-            Cliente recomendacionPersona2 = new Cliente
-            {
-                Nombre = "Jhordan Yanez",
-                BatidoraComprada = batidora2,
-                LicuadoraComprada = licuadora2,
-                SmartphoneComprada = smartphone1
-            };
-            Cliente recomendacionPersona3 = new Cliente
-            {
-                Nombre = "Catalina Mercedes",
-                LaptopComprada = laptop1,
-                BatidoraComprada = batidora1,
-                MicroondaComprada = microonda2
-            };
-
-            Cliente recomendacionPersona4 = new Cliente
-            {
-                Nombre = "Nelson Cabrera",
-                LaptopComprada = laptop1,
-                BatidoraComprada = batidora4,
-                MicroondaComprada = microonda3
-            };
-
-            Cliente recomendacionPersona5 = new Cliente
-            {
-                Nombre = "Maria  Diaz",
-                LicuadoraComprada = licuadora4,
-                BatidoraComprada = batidora4,
-                MicroondaComprada = microonda3
-            };
-
-            Cliente recomendacionPersona6 = new Cliente
-            {
-                Nombre = "Guido Cabrera",
-                LaptopComprada = laptop4,
-                BatidoraComprada = batidora3,
-                SmartphoneComprada = smartphone4
-            };
-
-
-
+           
             Console.WriteLine($"-----------------------------------------------------");
             Console.WriteLine($"\t Hola Bienvenidos  a una simulacion de compra de productos. ");
             Console.WriteLine($"-----------------------------------------------------");
@@ -302,36 +255,8 @@ namespace SistemaPOOConsola
             Console.WriteLine($"{batidora4.Apagar()}");
             Console.BackgroundColor = ConsoleColor.Black;
 
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"------------------------------------------------------");
-            Console.WriteLine("Acontinuación se mostrará  a las persona  que  compraron  los productos, ya que contamos con una excelente calidad de artículos ");
-            Console.ReadLine();
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona1.Nombre} Obtuvo  una compra de tablet modelo: {recomendacionPersona1.TabletComprada.Modelo} con la marca:  {recomendacionPersona1.TabletComprada.Marca}," +
-                $" un microonda  de modelo: {recomendacionPersona1.MicroondaComprada.Modelo} con la marca {recomendacionPersona1.MicroondaComprada.Marca}  y una batidora  de modelo  {recomendacionPersona1.BatidoraComprada.Modelo} con la marca,{recomendacionPersona1.BatidoraComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona2.Nombre} Obtuvo  una compra de batidora modelo: {recomendacionPersona2.BatidoraComprada.Modelo} con la marca:{recomendacionPersona2.BatidoraComprada.Marca}," +
-                $" una licuadora de modelo: {recomendacionPersona2.LicuadoraComprada.Modelo} {recomendacionPersona2.LicuadoraComprada.Marca} y un Smartphone: {recomendacionPersona2.SmartphoneComprada.Modelo}con la marca {recomendacionPersona2.SmartphoneComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona3.Nombre} Obtuvo  una compra de laptop modelo: {recomendacionPersona3.LaptopComprada.Modelo}con la marca: {recomendacionPersona3.LaptopComprada.Marca}," +
-                $" una  batidora  de modelo:{recomendacionPersona3.BatidoraComprada.Modelo} {recomendacionPersona3.BatidoraComprada.Marca} y un microonda: {recomendacionPersona3.MicroondaComprada.Modelo}con la marca {recomendacionPersona3.MicroondaComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona4.Nombre} Obtuvo  una compra de laptop modelo: {recomendacionPersona4.LaptopComprada.Modelo}con la marca: {recomendacionPersona4.LaptopComprada.Marca}," +
-              $" una  batidora de modelo: {recomendacionPersona4.BatidoraComprada.Modelo} {recomendacionPersona4.BatidoraComprada.Marca} y un microonda: {recomendacionPersona4.MicroondaComprada.Modelo}con la marca {recomendacionPersona4.MicroondaComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona5.Nombre} Obtuvo  una compra de licuadora modelo: {recomendacionPersona5.LicuadoraComprada.Modelo} con la marca:{recomendacionPersona5.LicuadoraComprada.Marca}," +
-              $" una  batidora de modelo: {recomendacionPersona5.BatidoraComprada.Modelo} {recomendacionPersona5.BatidoraComprada.Marca} y un microonda: {recomendacionPersona5.MicroondaComprada.Modelo} con la marca{recomendacionPersona5.MicroondaComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-
-            Console.WriteLine($"{recomendacionPersona6.Nombre} Obtuvo  una compra de laptop modelo: {recomendacionPersona6.LaptopComprada.Modelo}con la marca: {recomendacionPersona6.LaptopComprada.Marca}," +
-              $" una  batidora de modelo: {recomendacionPersona6.BatidoraComprada.Modelo} {recomendacionPersona6.BatidoraComprada.Marca} y un Smartphone: {recomendacionPersona6.SmartphoneComprada.Modelo}con la marca {recomendacionPersona6.SmartphoneComprada.Marca}");
-            Console.WriteLine($"------------------------------------------------------");
-            Console.BackgroundColor = ConsoleColor.Black;
+           
+            
 
             Console.ReadKey();
         }
