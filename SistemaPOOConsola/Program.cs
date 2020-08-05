@@ -255,8 +255,7 @@ namespace SistemaPOOConsola
             Console.WriteLine($"{batidora4.Apagar()}");
             Console.BackgroundColor = ConsoleColor.Black;
 
-           
-            
+            Console.WriteLine($" Muchas Gracias {nombreCliente} {apellidoCliente} por visitarnos y observar los productos que tenemos");
 
             Console.ReadKey();
         }
