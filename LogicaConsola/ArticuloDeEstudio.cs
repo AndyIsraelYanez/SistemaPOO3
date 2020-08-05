@@ -14,7 +14,7 @@ namespace LogicaConsola
         { }
         public void VerListaEstudio()
         {
-            Console.WriteLine($" El modelo es : {this.Modelo} y su marca  {this.Marca} y  tiene un costo de: {this.Costo} $ ");
+            Console.WriteLine($" El modelo es : {this.Modelo} y  tiene un costo de: {this.Costo} $ ");
         }
 
     }

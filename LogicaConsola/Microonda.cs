@@ -8,7 +8,7 @@ namespace LogicaConsola
     {
         public float ConsumoElectrico{ get; set; }
         public string TipodeCalentado { get; set; }
-        public string TipoDeIluminacion { get; set; }
+        public string TamañoPorDentro { get; set; }
 
         public Microonda():base()
         {}
@@ -27,18 +27,19 @@ namespace LogicaConsola
         {
             return $"{this.Modelo} {base.Apagar()} ";
         }
-        public string AbrirMicroonda()
-        {
-            var luz = "Led";
-
-            TipoDeIluminacion = luz;
-
-            return $"Al momento de Abrir el microondas de marca: {this.Marca} tiene una iluminación: {TipoDeIluminacion}";
-        }
-        public string Describir()
+       
+        public string Detallar()
         {
 
             return $" El microondas de marca  {this.Marca}   es muy recomendado $ ";
+        }
+        public string AbrirMicroonda()
+        {
+            var tamañoDentro = "pequeño";
+
+            TamañoPorDentro = tamañoDentro;
+
+            return $"Al momento de Abrir el microondas por dentro es {TamañoPorDentro}";
         }
 
     }

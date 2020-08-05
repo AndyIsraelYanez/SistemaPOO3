@@ -22,17 +22,18 @@ namespace LogicaConsola
         }
         public new string ReproducirMusica()
         {
-            return $" La tablet de modelo {this.Modelo} {this.Marca} tiene un {base.ReproducirMusica()} ";
+            return $" La tablet de modelo {this.Modelo} tiene un {base.ReproducirMusica()} ";
         }
         public new string PararMusica()
         {
             return $" el modelo {this.Modelo}  de la msima manera tiene un  {base.PararMusica()}";
         }
         
-        public virtual string Describir()
+        public virtual string Detallar()
         {
             return $" El dispositivo es de  de marca:  {this.Marca}  " +
-                $" tiene  un almacenamiento de:  {this.Almacenamiento} y una memoria Ram  de: {this.MemoriaRam} con un costo de: {this.Costo} $ ";
+                $" tiene  un almacenamiento de:  {this.Almacenamiento} y una memoria Ram  de: {this.MemoriaRam}" +
+                $" con un costo de: {this.Costo} dolares ";
         }
         public virtual string Resistencia(string resistent)
         {

@@ -7,12 +7,12 @@ namespace LogicaConsola
         {}
         public virtual string Encender()
         {
-            return $"Encendido";
+            return $"se encuentra encendido";
 
         }
         public virtual string Apagar()
         {
-            return $"Apagado";
+            return $"se encuentra apagado";
 
         }
         public virtual string ReproducirMusica()

@@ -23,7 +23,7 @@ namespace LogicaConsola
         }
      
 
-        public virtual string Describir()
+        public virtual string Detallar()
         {
             return $" El dispositivo es de  de marca:  {this.Marca}  " +
                 $" tine  un almacenamiento de:  {this.Almacenamiento} y una memoria Ram  de: {this.MemoriaRam} con un costo de: {this.Costo} $ ";

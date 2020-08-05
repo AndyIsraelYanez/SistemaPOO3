@@ -21,11 +21,11 @@ namespace LogicaConsola
         }
         public new string Encender()
         {
-            return $" {this.Modelo} {this.Marca} {base.Encender()} ";
+            return $"  {this.Marca} {base.Encender()} ";
         }
         public new string Apagar()
         {
-            return $"{this.Modelo} {base.Apagar()} {base.Apagar()}";
+            return $" {base.Apagar()} {base.Apagar()}";
         }
         public string Licuar(string licuado)
         {
@@ -33,7 +33,7 @@ namespace LogicaConsola
         }
 
         
-        public virtual string Describir()
+        public virtual string Detallar()
         {
 
             return $" la licuadora  de Modelo:  {this.Modelo} y marca: {this.Marca} " +

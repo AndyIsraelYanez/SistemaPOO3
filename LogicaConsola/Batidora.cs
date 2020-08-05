@@ -14,6 +14,7 @@ namespace LogicaConsola
             Color = color;
             Costo = costo;
         }
+
         public new string Encender()
         {
             return $" {this.Modelo} {this.Marca} {base.Encender()} ";
@@ -27,9 +28,9 @@ namespace LogicaConsola
         {
             return $"La Batidora mezcla:  {tipoBatida}";
         }
-        public virtual string Describir()
+        public virtual string Detallar()
         {
-            return $" La  Batidora es de modelo: {this.Modelo} y su marca es : {this.Marca}  y tiene un costo de: {this.Costo} $ ";
+            return $" La  Batidora es de  marca es : {this.Marca}  y tiene un costo de: {this.Costo} $ ";
         }
     }
 }

@@ -109,36 +109,36 @@ namespace SistemaPOOConsola
             Console.WriteLine($"*Bienvenido {nombreCliente}  {apellidoCliente}");
 
 
-            //Respuestas
-
+            
+            //Mostrar productos 
             Console.WriteLine($"-----------------------------------------------------");
             Console.WriteLine("Acontinuacion se mostrara la lista de los productos y sus Acciones ");
             Console.BackgroundColor = ConsoleColor.Red;
 
 
-            Console.WriteLine($"Felicidades usted   ha comprado una tablet modelo: {tablet1.Modelo}  de marca: {tablet1.Marca}");
-            Console.WriteLine($"{tablet1.Describir()}");
+            Console.WriteLine($"Esta es  una tablet modelo: {tablet1.Modelo}  de marca: {tablet1.Marca}");
+            Console.WriteLine($"{tablet1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{tablet1.ReproducirMusica()}");
             Console.WriteLine($"{tablet1.PararMusica()}");
             Console.WriteLine($"{tablet1.Resistencia("No es resistente agua")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una tablet modelo: {tablet2.Modelo}  de marca: {tablet2.Marca}");
-            Console.WriteLine($"{tablet2.Describir()}");
+            Console.WriteLine($"Esta es  una tablet modelo: {tablet2.Modelo}  de marca: {tablet2.Marca}");
+            Console.WriteLine($"{tablet2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{tablet2.ReproducirMusica()}");
             Console.WriteLine($"{tablet2.PararMusica()}");
             Console.WriteLine($"{tablet2.Resistencia(" No es resistente agua ")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una tablet modelo: {tablet3.Modelo}  de marca: {tablet3.Marca}");
-            Console.WriteLine($"{tablet3.Describir()}");
+            Console.WriteLine($"Esta es  una tablet modelo: {tablet3.Modelo}  de marca: {tablet3.Marca}");
+            Console.WriteLine($"{tablet3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{tablet3.ReproducirMusica()}");
             Console.WriteLine($"{tablet3.PararMusica()}");
             Console.WriteLine($"{tablet3.Resistencia(" No es resistente agua ")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una tablet modelo: {tablet4.Modelo} de marca: {tablet4.Marca}");
-            Console.WriteLine($"{tablet4.Describir()}");
+            Console.WriteLine($"Esta es una tablet modelo: {tablet4.Modelo} de marca: {tablet4.Marca}");
+            Console.WriteLine($"{tablet4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{tablet4.ReproducirMusica()}");
             Console.WriteLine($"{tablet4.PararMusica()}");
@@ -146,8 +146,8 @@ namespace SistemaPOOConsola
 
             //Laptop.2
 
-            Console.WriteLine($"Felicidades usted   ha comprado una laptop modelo: {laptop1.Modelo} de marca: {laptop1.Marca}");
-            Console.WriteLine($"{laptop1.Describir()}");
+            Console.WriteLine($"Esta es  una laptop modelo: {laptop1.Modelo} de marca: {laptop1.Marca}");
+            Console.WriteLine($"{laptop1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{laptop1.Encender()}");
             Console.WriteLine($"{laptop1.Descargas()}");
@@ -155,24 +155,24 @@ namespace SistemaPOOConsola
             Console.WriteLine($"{laptop1.Apagar()}");
 
 
-            Console.WriteLine($"Felicidades usted   ha comprado una laptop modelo: {laptop2.Modelo} de marca: {laptop2.Marca}");
-            Console.WriteLine($"{laptop2.Describir()}");
+            Console.WriteLine($"Esta es  una laptop modelo: {laptop2.Modelo} de marca: {laptop2.Marca}");
+            Console.WriteLine($"{laptop2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{laptop2.Encender()}");
             Console.WriteLine($"{laptop2.Descargas()}");
             Console.WriteLine($"{laptop2.VideoConferencias()}");
             Console.WriteLine($"{laptop2.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una laptop modelo: {laptop3.Modelo} de marca: {laptop3.Marca}");
-            Console.WriteLine($"{laptop3.Describir()}");
+            Console.WriteLine($"Esta es  una laptop modelo: {laptop3.Modelo} de marca: {laptop3.Marca}");
+            Console.WriteLine($"{laptop3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{laptop3.Encender()}");
             Console.WriteLine($"{laptop3.Descargas()}");
             Console.WriteLine($"{laptop3.VideoConferencias()}");
             Console.WriteLine($"{laptop3.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una laptop modelo: {laptop4.Modelo} de marca: {laptop4.Marca}");
-            Console.WriteLine($"{laptop4.Describir()}");
+            Console.WriteLine($"Esta es  una laptop modelo: {laptop4.Modelo} de marca: {laptop4.Marca}");
+            Console.WriteLine($"{laptop4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{laptop4.Encender()}");
             Console.WriteLine($"{laptop4.Descargas()}");
@@ -181,29 +181,29 @@ namespace SistemaPOOConsola
 
             //Smartphone
 
-            Console.WriteLine($"Felicidades usted   ha comprado una tablet modelo: {smartphone1.Modelo}  de marca: {smartphone1.Marca}");
-            Console.WriteLine($"{smartphone1.Describir()}");
+            Console.WriteLine($"Esta es una tablet modelo: {smartphone1.Modelo}  de marca: {smartphone1.Marca}");
+            Console.WriteLine($"{smartphone1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{smartphone1.ReproducirMusica()}");
             Console.WriteLine($"{smartphone1.PararMusica()}");
             Console.WriteLine($"{smartphone1.Resistencia(" No es resistente agua ")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un smartphone modelo: {smartphone2.Modelo}  de marca: {smartphone2.Marca}");
-            Console.WriteLine($"{smartphone2.Describir()}");
+            Console.WriteLine($"Esta es  un smartphone modelo: {smartphone2.Modelo}  de marca: {smartphone2.Marca}");
+            Console.WriteLine($"{smartphone2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{smartphone2.ReproducirMusica()}");
             Console.WriteLine($"{smartphone2.PararMusica()}");
             Console.WriteLine($"{smartphone2.Resistencia(" No es resistente agua ")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un smartphone modelo: {smartphone3.Modelo}  de marca: {smartphone3.Marca}");
-            Console.WriteLine($"{smartphone3.Describir()}");
+            Console.WriteLine($"Esta es  un smartphone modelo: {smartphone3.Modelo}  de marca: {smartphone3.Marca}");
+            Console.WriteLine($"{smartphone3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{smartphone3.ReproducirMusica()}");
             Console.WriteLine($"{smartphone3.PararMusica()}");
             Console.WriteLine($"{smartphone3.Resistencia(" No es resistente agua ")}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un smartphone modelo: {smartphone4.Modelo}  de marca: {smartphone4.Marca}");
-            Console.WriteLine($"{smartphone4.Describir()}");
+            Console.WriteLine($"Esta es  un smartphone modelo: {smartphone4.Modelo}  de marca: {smartphone4.Marca}");
+            Console.WriteLine($"{smartphone4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{smartphone4.ReproducirMusica()}");
             Console.WriteLine($"{smartphone4.PararMusica()}");
@@ -217,85 +217,85 @@ namespace SistemaPOOConsola
 
             //Licuadora
             Console.BackgroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"Felicidades usted   ha comprado una licuadora modelo: {licuadora1.Modelo} de marca: {licuadora1.Marca}");
-            Console.WriteLine($"{licuadora1.Describir()}");
+            Console.WriteLine($"Esta es  una licuadora modelo: {licuadora1.Modelo} de marca: {licuadora1.Marca}");
+            Console.WriteLine($"{licuadora1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{licuadora1.Encender()}");
             Console.WriteLine($"{licuadora1.Licuar(" Rápido ")}");
             Console.WriteLine($"{licuadora1.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una licuadora modelo: {licuadora2.Modelo}de marca: {licuadora2.Marca}");
-            Console.WriteLine($"{licuadora2.Describir()}");
+            Console.WriteLine($"Esta es una licuadora modelo: {licuadora2.Modelo}de marca: {licuadora2.Marca}");
+            Console.WriteLine($"{licuadora2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{licuadora2.Encender()}");
             Console.WriteLine($"{licuadora2.Licuar(" Rápido ")}");
             Console.WriteLine($"{licuadora2.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una licuadora modelo: {licuadora3.Modelo} de marca: {licuadora3.Marca}");
-            Console.WriteLine($"{licuadora3.Describir()}");
+            Console.WriteLine($"Esta es  una licuadora modelo: {licuadora3.Modelo} de marca: {licuadora3.Marca}");
+            Console.WriteLine($"{licuadora3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{licuadora3.Encender()}");
             Console.WriteLine($"{licuadora3.Licuar(" Rápido ")}");
             Console.WriteLine($"{licuadora3.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una licuadora modelo: {licuadora4.Modelo} de marca: {licuadora4.Marca}");
-            Console.WriteLine($"{licuadora4.Describir()}");
+            Console.WriteLine($"Esta es una licuadora modelo: {licuadora4.Modelo} de marca: {licuadora4.Marca}");
+            Console.WriteLine($"{licuadora4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{licuadora4.Encender()}");
             Console.WriteLine($"{licuadora4.Licuar(" Lento ")}");
             Console.WriteLine($"{licuadora4.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un microondas modelo: {microonda1.Modelo} de marca: {microonda1.Marca}");
-            Console.WriteLine($"{microonda1.Describir()}");
+            Console.WriteLine($"Esta es  un microondas modelo: {microonda1.Modelo} de marca: {microonda1.Marca}");
+            Console.WriteLine($"{microonda1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{microonda1.Encender()}");
             Console.WriteLine($"{microonda1.AbrirMicroonda()}");
             Console.WriteLine($"{microonda1.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un microondas modelo: {microonda2.Marca} de marca: {microonda2}");
-            Console.WriteLine($"{microonda2.Describir()}");
+            Console.WriteLine($"Esta es  un microondas modelo: {microonda2.Marca} de marca: {microonda2}");
+            Console.WriteLine($"{microonda2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{microonda2.Encender()}");
             Console.WriteLine($"{microonda2.AbrirMicroonda()}");
             Console.WriteLine($"{microonda2.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un microondas modelo: {microonda3.Modelo} de marca: {microonda3.Marca}");
-            Console.WriteLine($"{microonda3.Describir()}");
+            Console.WriteLine($"Esta es un microondas modelo: {microonda3.Modelo} de marca: {microonda3.Marca}");
+            Console.WriteLine($"{microonda3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{microonda3.Encender()}");
             Console.WriteLine($"{microonda3.AbrirMicroonda()}");
             Console.WriteLine($"{microonda3.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado un microondas modelo: {microonda4.Marca} de marca: {microonda4}");
-            Console.WriteLine($"{microonda4.Describir()}");
+            Console.WriteLine($"Esto es  un microondas modelo: {microonda4.Marca} de marca: {microonda4}");
+            Console.WriteLine($"{microonda4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{microonda4.Encender()}");
             Console.WriteLine($"{microonda4.AbrirMicroonda()}");
             Console.WriteLine($"{microonda4.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una Batidora modelo: {batidora1.Modelo} de marca: {batidora1.Marca}");
-            Console.WriteLine($"{batidora1.Describir()}");
+            Console.WriteLine($"Esto es una Batidora modelo: {batidora1.Modelo} de marca: {batidora1.Marca}");
+            Console.WriteLine($"{batidora1.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{batidora1.Encender()}");
             Console.WriteLine($"{batidora1.Batir(" Normal ")}");
             Console.WriteLine($"{batidora1.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una Batidora modelo: {batidora2.Modelo} de marca: {batidora2.Marca}");
-            Console.WriteLine($"{batidora2.Describir()}");
+            Console.WriteLine($"Esto es una Batidora modelo: {batidora2.Modelo} de marca: {batidora2.Marca}");
+            Console.WriteLine($"{batidora2.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{batidora2.Encender()}");
             Console.WriteLine($"{batidora1.Batir(" Lento ")}");
             Console.WriteLine($"{batidora2.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una Batidora modelo: {batidora3.Modelo} de marca: {batidora3.Marca}");
-            Console.WriteLine($"{batidora3.Describir()}");
+            Console.WriteLine($"Esto es una Batidora modelo: {batidora3.Modelo} de marca: {batidora3.Marca}");
+            Console.WriteLine($"{batidora3.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{batidora3.Encender()}");
             Console.WriteLine($"{batidora1.Batir(" Rápido ")}");
             Console.WriteLine($"{batidora3.Apagar()}");
 
-            Console.WriteLine($"Felicidades usted   ha comprado una Batidora modelo:{batidora4.Modelo} de marca: {batidora4.Marca}");
-            Console.WriteLine($"{batidora4.Describir()}");
+            Console.WriteLine($"Esto es una Batidora modelo:{batidora4.Modelo} de marca: {batidora4.Marca}");
+            Console.WriteLine($"{batidora4.Detallar()}");
             Console.WriteLine($"Funcionalidades:");
             Console.WriteLine($"{batidora4.Encender()}");
             Console.WriteLine($"{batidora1.Batir(" Lento ")}");

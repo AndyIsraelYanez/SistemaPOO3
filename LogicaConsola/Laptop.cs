@@ -29,10 +29,11 @@ namespace LogicaConsola
         {
             return " El dispositivo se esta conectando a una videollamada.. ";
         }
-        public virtual string Describir()
+        public virtual string Detallar()
         {
             return $" La Laptop de Modelo: {this.Modelo} {this.Marca}" +
-                $"tiene un Almacenamiento de:  {this.Almacenamiento}  y es de una generacion de:  {this.Generacion} de memoria Ram, y tiene un costo de: {this.Costo} $ ";
+                $"tiene un Almacenamiento de:  {this.Almacenamiento}  y es de una generacion de:" +
+                $"  {this.Generacion} de memoria Ram, y tiene un costo de: {this.Costo} $ ";
         }
         public new string Encender()
         {
