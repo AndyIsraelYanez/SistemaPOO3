@@ -2,7 +2,7 @@
 
 <h1>El siguiente programa   es realizado en consola de  C# , es un catálogo   de artículos para la cocina 
   y artículos para el estudio, en donde consiste en ingresar su nombre  y apellido ,de esta manera se mostrara los productos tanto artículos  para la cocina  ´para el estudio 
-  una vez finalizado  mostrará una infromación de personas que ya adquirieron los productos .</h1>
+  y al final un mensaje de agradecimiento por haber ingresado.</h1>
 
 
 | Artículos De Estudio | Artículos De Cocina |
