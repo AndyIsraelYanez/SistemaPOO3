@@ -12,6 +12,9 @@ namespace LogicaConsola
             Color = color;
             Costo = costo;
         }
+        public Batidora() : base()
+        {
+        }
 
         public new string Encender()
         {

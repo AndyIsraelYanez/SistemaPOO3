@@ -9,7 +9,9 @@ namespace LogicaConsola
         public string Marca { get; set; }
         public string Color { get; set; }
         public float Costo { get; set; }
-       
+        protected ArticuloDeCocina() : base()
+        { }
+
         public void VerListaCocina()
         {
             Console.WriteLine($"El modelo  es: {this.Modelo}  y tiene un costo de: {this.Costo} $ ");

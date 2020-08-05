@@ -9,6 +9,10 @@ namespace LogicaConsola
         public float ConsumoElectrico{ get; set; }
         public string TipodeCalentado { get; set; }
         public string TamañoPorDentro { get; set; }
+        
+        public Microonda() : base() 
+        {
+        }
         public Microonda(string modelo, string marca, string color, float costo)
         {
             Modelo = modelo;

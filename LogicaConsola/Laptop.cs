@@ -7,7 +7,10 @@ namespace LogicaConsola
     {
         public string Generacion { get; set; }
         public string Almacenamiento { get; set; }
-       
+        public Laptop() : base()
+        {
+        }
+
         public Laptop(string modelo, string color, string marca, string almacenamiento, string generacion, float costo)
         {
             Modelo = modelo;

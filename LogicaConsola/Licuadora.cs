@@ -10,6 +10,9 @@ namespace LogicaConsola
         public float CantidadDeBatida { get; set; }
         public string TipoDeLicuado { get; set; }
         public float ConsumoElectrico { get; set; }
+        public Licuadora() : base()
+        {
+        }
         public Licuadora(string modelo,string marca, string color, float costo)
         {
             Modelo = modelo;
