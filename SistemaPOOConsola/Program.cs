@@ -18,10 +18,7 @@ namespace SistemaPOOConsola
             Console.WriteLine("Ingrese su apellido");
             var apellidoCliente = Console.ReadLine();
 
-
             Console.WriteLine($"*Bienvenido {nombreCliente}  {apellidoCliente}");
-
-
 
             //Mostrar productos 
             Console.WriteLine($"-----------------------------------------------------");
