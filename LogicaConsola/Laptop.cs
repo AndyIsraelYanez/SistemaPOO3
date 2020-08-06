@@ -11,7 +11,9 @@ namespace LogicaConsola
         {
         }
 
-        public Laptop(string modelo, string color, string marca, string almacenamiento, string generacion, float costo)
+        public Laptop(string modelo, string color, string marca, 
+            
+            string almacenamiento, string generacion, float costo)
         {
             Modelo = modelo;
             Color = color; 
@@ -35,13 +37,13 @@ namespace LogicaConsola
                 $"tiene un Almacenamiento de:  {this.Almacenamiento}  y es de una generacion de:" +
                 $"  {this.Generacion} de memoria Ram, y tiene un costo de: {this.Costo} $ ";
         }
-        public new string Encender()
+        public new string On()
         {
-            return $" {this.Modelo} {this.Marca} {base.Encender()} ";
+            return $" {this.Modelo} {this.Marca} {base.On()} ";
         }
-        public new string Apagar()
+        public new string Off()
         {
-            return $" {this.Modelo} {base.Apagar()} ";
+            return $" {this.Modelo} {base.Off()} ";
         }
     }
 }

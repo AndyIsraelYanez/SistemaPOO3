@@ -20,13 +20,13 @@ namespace LogicaConsola
             Color = color;
             Costo = costo;
         }
-        public new string Encender()
+        public new string On()
         {
-            return $" {this.Modelo} {this.Marca} {base.Encender()} ";
+            return $" {this.Modelo} {this.Marca} {base.On()} ";
         }
-        public new string Apagar()
+        public new string Off()
         {
-            return $"{this.Modelo} {base.Apagar()} ";
+            return $"{this.Modelo} {base.Off()} ";
         }
        
         public string Detallar()

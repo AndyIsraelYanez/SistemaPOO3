@@ -6,16 +6,7 @@ namespace LogicaConsola
         protected Articulo() : base()
         { }
 
-        public virtual string Encender()
-        {
-            return $"se encuentra encendido";
-
-        }
-        public virtual string Apagar()
-        {
-            return $"Apagado";
-
-        }
+        
         public virtual string ReproducirMusica()
         {
             return $"sistema de voz para  Reproducir música";
@@ -23,6 +14,16 @@ namespace LogicaConsola
         public virtual string PararMusica()
         {
             return $"sistema de voz para  parar música ";
+        }
+        public virtual string On()
+        {
+            return $"se encuentra en modo on";
+
+        }
+        public virtual string Off()
+        {
+            return $"se encuentra en modo off";
+
         }
     }
 }

@@ -26,13 +26,13 @@ namespace LogicaConsola
             return $" la Licuadora esta licuando {licuado}";
         }
 
-        public new string Encender()
+        public new string On()
         {
-            return $"  {this.Marca} {base.Encender()} ";
+            return $"  {this.Marca} {base.On()} ";
         }
-        public new string Apagar()
+        public new string Off()
         {
-            return $" {this.Modelo} {base.Apagar()}";
+            return $" {this.Modelo} {base.Off()}";
         }      
         
         public virtual string Detallar()

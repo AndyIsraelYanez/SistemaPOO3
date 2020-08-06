@@ -11,7 +11,8 @@ namespace LogicaConsola
         public Tablet() : base()
         {
         }
-        public Tablet(string modelo, string color, string marca,string almacenamiento,string memoria,float costo )
+        public Tablet(string modelo, string color, string marca,string
+            almacenamiento,string memoria,float costo )
         {
             Modelo = modelo;
             Color = color;
@@ -26,7 +27,7 @@ namespace LogicaConsola
         }
         public new string PararMusica()
         {
-            return $" el modelo {this.Modelo}  de la msima manera tiene un  {base.PararMusica()}";
+            return $" y la tablet de la msima manera tiene un  {base.PararMusica()}";
         }
         
         public virtual string Detallar()
