@@ -14,16 +14,16 @@ namespace LogicaConsola
         public Tablet(string modelo, string color, string marca,string
             almacenamiento,string memoria,float costo )
         {
-            Modelo = modelo;
-            Color = color;
-            Marca = marca;
-            Almacenamiento = almacenamiento;
-            MemoriaRam = memoria;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Color = color;
+            this.Marca = marca;
+            this.Almacenamiento = almacenamiento;
+            this.MemoriaRam = memoria;
+            this.Costo = costo;
         }
         public new string ReproducirMusica()
         {
-            return $" La tablet de modelo {this.Modelo} tiene un {base.ReproducirMusica()} ";
+            return $" La tablet de modelo {Modelo} tiene un {base.ReproducirMusica()} ";
         }
         public new string PararMusica()
         {
@@ -32,9 +32,9 @@ namespace LogicaConsola
         
         public virtual string Detallar()
         {
-            return $" El dispositivo es de  de marca:  {this.Marca}  " +
-                $" tiene  un almacenamiento de:  {this.Almacenamiento} y una memoria Ram  de: {this.MemoriaRam}" +
-                $" con un costo de: {this.Costo} dolares ";
+            return $" El dispositivo es de  de marca:  {Marca}  " +
+                $" tiene  un almacenamiento de:  {Almacenamiento} y una memoria Ram  de: {MemoriaRam}" +
+                $" con un costo de: {Costo} dolares ";
         }
         public virtual string Resistencia(string resistent)
         {

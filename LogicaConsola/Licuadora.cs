@@ -15,10 +15,10 @@ namespace LogicaConsola
         }
         public Licuadora(string modelo,string marca, string color, float costo)
         {
-            Modelo = modelo;
-            Marca = marca;
-            Color = color;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Marca = marca;
+            this.Color = color;
+            this.Costo = costo;
         }
 
         public string Licuar(string licuado)
@@ -28,17 +28,17 @@ namespace LogicaConsola
 
         public new string On()
         {
-            return $"  {this.Marca} {base.On()} ";
+            return $"  {Marca} {base.On()} ";
         }
         public new string Off()
         {
-            return $" {this.Modelo} {base.Off()}";
+            return $" {Modelo} {base.Off()}";
         }      
         
         public virtual string Detallar()
         {
 
-            return $" la licuadora  de Modelo:  {this.Modelo} y marca: {this.Marca} " +
+            return $" la licuadora  de Modelo:  {Modelo} y marca: {Marca} " +
                 $"son muy Rapidas y resistentes ante cualquier caida  $ ";
         }
     }

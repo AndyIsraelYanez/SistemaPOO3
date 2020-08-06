@@ -15,12 +15,12 @@ namespace LogicaConsola
             
             string almacenamiento, string generacion, float costo)
         {
-            Modelo = modelo;
-            Color = color; 
-            Marca = marca;
-            Almacenamiento = almacenamiento;
-            Generacion = generacion;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Color = color; 
+            this.Marca = marca;
+            this.Almacenamiento = almacenamiento;
+            this.Generacion = generacion;
+            this.Costo = costo;
         }
        
         public virtual string Descargas()
@@ -33,17 +33,17 @@ namespace LogicaConsola
         }
         public virtual string Detallar()
         {
-            return $" La Laptop de Modelo: {this.Modelo} {this.Marca}" +
-                $"tiene un Almacenamiento de:  {this.Almacenamiento}  y es de una generacion de:" +
-                $"  {this.Generacion} de memoria Ram, y tiene un costo de: {this.Costo} $ ";
+            return $" La Laptop de Modelo: {Modelo} {Marca}" +
+                $"tiene un Almacenamiento de:  {Almacenamiento}  y es de una generacion de:" +
+                $"  {this.Generacion} de memoria Ram, y tiene un costo de: {Costo} $ ";
         }
         public new string On()
         {
-            return $" {this.Modelo} {this.Marca} {base.On()} ";
+            return $" {Modelo} {Marca} {base.On()} ";
         }
         public new string Off()
         {
-            return $" {this.Modelo} {base.Off()} ";
+            return $" {Modelo} {base.Off()} ";
         }
     }
 }

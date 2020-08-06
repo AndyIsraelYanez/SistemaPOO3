@@ -7,10 +7,10 @@ namespace LogicaConsola
        
         public Batidora(string modelo, string marca,string color, float costo)
         {
-            Modelo = modelo;
-            Marca = marca;
-            Color = color;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Marca = marca;
+            this.Color = color;
+            this.Costo = costo;
         }
         public Batidora() : base()
         {
@@ -18,11 +18,11 @@ namespace LogicaConsola
 
         public new string On()
         {
-            return $" {this.Modelo} {this.Marca} {base.On()} ";
+            return $" {Modelo} {Marca} {base.On()} ";
         }
         public new string Off()
         {
-            return $"{this.Modelo} {base.Off()} ";
+            return $"{Modelo} {base.Off()} ";
         }
        
         public  string Batir(string tipoBatida)
@@ -31,7 +31,7 @@ namespace LogicaConsola
         }
         public virtual string Detallar()
         {
-            return $" La  Batidora es de  marca es : {this.Marca}  y tiene un costo de: {this.Costo} $ ";
+            return $" La  Batidora es de  marca es : {Marca}  y tiene un costo de: {Costo} $ ";
         }
     }
 }

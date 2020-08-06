@@ -14,7 +14,7 @@ namespace LogicaConsola
 
         public void VerListaCocina()
         {
-            Console.WriteLine($"El modelo  es: {this.Modelo}  y tiene un costo de: {this.Costo} $ ");
+            Console.WriteLine($"El modelo  es: {Modelo}  y tiene un costo de: {Costo} $ ");
         }
     }
 }

@@ -14,19 +14,19 @@ namespace LogicaConsola
         }
         public Smartphone(string modelo, string color, string marca, string almacenamiento,string memoriaRam, float costo)
         {
-            Modelo = modelo;
-            Color = color;
-            Marca = marca;
-            Almacenamiento = almacenamiento;
-            MemoriaRam = memoriaRam;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Color = color;
+            this.Marca = marca;
+            this.Almacenamiento = almacenamiento;
+            this.MemoriaRam = memoriaRam;
+            this.Costo = costo;
         }
      
 
         public virtual string Detallar()
         {
-            return $" El dispositivo es de  de marca:  {this.Marca}  " +
-                $" tine  un almacenamiento de:  {this.Almacenamiento} y una memoria Ram  de: {this.MemoriaRam} con un costo de: {this.Costo} $ ";
+            return $" El dispositivo es de  de marca:  {Marca}  " +
+                $" tine  un almacenamiento de:  {Almacenamiento} y una memoria Ram  de: {MemoriaRam} con un costo de: {Costo} $ ";
         }
         public virtual string Resistencia(string resistent)
         {
@@ -35,11 +35,11 @@ namespace LogicaConsola
 
         public new string ReproducirMusica()
         {
-            return $" La tablet de modelo {this.Modelo} {this.Marca} tiene un {base.ReproducirMusica()} ";
+            return $" La tablet de modelo {Modelo} {Marca} tiene un {base.ReproducirMusica()} ";
         }
         public new string PararMusica()
         {
-            return $" el modelo {this.Modelo}  de la misma  manera tiene un  {base.PararMusica()}";
+            return $" el modelo {Modelo}  de la misma  manera tiene un  {base.PararMusica()}";
         }
     }
     

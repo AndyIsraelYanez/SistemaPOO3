@@ -15,24 +15,24 @@ namespace LogicaConsola
         }
         public Microonda(string modelo, string marca, string color, float costo)
         {
-            Modelo = modelo;
-            Marca = marca;
-            Color = color;
-            Costo = costo;
+            this.Modelo = modelo;
+            this.Marca = marca;
+            this.Color = color;
+            this.Costo = costo;
         }
         public new string On()
         {
-            return $" {this.Modelo} {this.Marca} {base.On()} ";
+            return $" {Modelo} {Marca} {base.On()} ";
         }
         public new string Off()
         {
-            return $"{this.Modelo} {base.Off()} ";
+            return $"{Modelo} {base.Off()} ";
         }
        
         public string Detallar()
         {
 
-            return $" El microondas de marca  {this.Marca}   es muy recomendado $ ";
+            return $" El microondas de marca  {Marca}   es muy recomendado $ ";
         }
         public string AbrirMicroonda()
         {
